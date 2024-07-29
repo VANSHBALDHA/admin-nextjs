@@ -1,0 +1,53 @@
+{
+    "name": "ecommerce_admin",
+    "version": "3.0.0",
+    "private": true,
+    "author": {
+        "name": "nouthemes"
+    },
+    "keywords": [
+        "react",
+        "reactjs",
+        "ecommerce",
+        "nextjs",
+        "next"
+    ],
+    "scripts": {
+        "dev": "node server.js",
+        "build": "next build",
+        "start": "NODE_ENV=production node server.js"
+    },
+    "dependencies": {
+        "@react-pdf-viewer/core": "^3.12.0",
+        "@react-pdf-viewer/toolbar": "^3.12.0",
+        "@reduxjs/toolkit": "^1.9.5",
+        "antd": "^5.15.2",
+        "apexcharts": "^3.47.0",
+        "axios": "^1.7.2",
+        "bootstrap": "^5.3.3",
+        "formik": "^2.4.6",
+        "git": "^0.1.5",
+        "history": "^5.3.0",
+        "next": "^14.1.3",
+        "pdfjs-dist": "^4.4.168",
+        "quill": "^2.0.2",
+        "react": "^18.2.0",
+        "react-apexcharts": "^1.4.1",
+        "react-dom": "^18.2.0",
+        "react-dropzone": "^14.2.3",
+        "react-icons": "^5.2.1",
+        "react-pdf": "^9.0.0",
+        "react-pro-sidebar": "^1.1.0",
+        "react-quill": "^2.0.0",
+        "react-redux": "^9.0.4",
+        "react-router-dom": "^6.24.1",
+        "react-tabs": "^6.0.2",
+        "reactstrap": "^9.2.2",
+        "redux": "^5.0.1",
+        "redux-saga": "^1.3.0",
+        "sass": "^1.72.0",
+        "styled-components": "^6.1.12",
+        "xlsx": "^0.18.5",
+        "yup": "^1.4.0"
+    }
+}
